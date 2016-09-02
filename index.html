@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/lib/material/css/bootstrap-material-design.css">
+<link rel="stylesheet" type="text/css" href="/lib/material/css/ripples.min.css">
+<script src="/lib/angular/angular.min.js"></script>
+<script src="/lib/showdown/showdown.min.js"></script>
+<meta charset="utf-8">
+</head>
+<body ng-app="MyWebSite">
+   <div class="navbar alert alert-dismissible alert-success" id="contact">
+      <div align="center" class="col-md-2">
+      <img src="myposts/img/minhafoto.jpg" width="140px" height="140px" style="border-radius: 50%;" alt="Minha foto" class="img-circle">
+      <p>Meu nome é Joshua Passos, trabalho com desenvolvimento Web(front-end e back-end), Mobile e Desktop. Gosto de estudar linguagens de programação e atualmente estou cursando o curso de Engenharia de Computação na Universidade Federal do Recôncavo da Bahia.</p>
+
+      <div align="center">
+      <ul class="list-group">
+         <li class="list-group-item"><a>joshuapassos@gmail.com</a></li>
+         <li class="list-group-item"><a href="https://github.com/joshuapassos/">Github</a></li>
+         <li class="list-group-item"><a href="https://www.facebook.com/joshuapassos">Facebook</a></li>
+         <li class="list-group-item"><a href="https://twitter.com/joshuapassos">Twitter</a></li>
+         <li class="list-group-item"><a href="https://www.linkedin.com/in/joshua-passos-a28b74b3">Linkedin</a></li>
+      </ul>
+   </div>
+      </div>
+   <div class="col-md-10">
+<a ><img  width="400" height="290" src="https://wakatime.com/share/@joshuapassos/47b27e58-11b3-4ea6-bbd4-a7c36799f50d.png" /> </a>
+<a ><img  width="400" height="290" src="https://wakatime.com/share/@joshuapassos/e7226eee-6532-48c9-9729-cfbcb661c685.png" /></a>
+
+   </div>
+   </div>
+
+   <div class="navbar navbar-inverse">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <a class="navbar-brand" href="javascript:void(0)">λ</a>
+       </div>
+       <div class="navbar-collapse collapse navbar-inverse-collapse">
+         <ul class="nav navbar-nav">
+           <li class="active"><a href="javascript:void(0)">Blog</a></li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+           <li><a id="toggle" href="#">Sobre</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+
+   <div class="container">
+   <div id="post" class="container-fluid col-md-9"  ng-controller="Main">
+      <div class="alert alert-dismissible alert-info">
+         <button type="button" class="close" data-dismiss="alert">×</button>
+         <strong>Esse artigo foi escrito: {{datap}}</strong><br>
+         <strong>{{tags}}</strong>
+      </div>
+      <div id="text" class="jumbotron"></div>
+   </div>
+   <div class="well well-lg col-md-3">
+      <p><strong>Artigos:</strong></p>
+      <ul class="nav nav-pills nav-stacked" ng-repeat="x in data.myposts" style="max-width: 300px;">
+         <li ng-class="id==x.id ? 'active' : 'xx' " ><a ng-click="post(x)" href="javascript:void(0)" >{{x.titulo}}</a></li>
+      </ul>
+   </div>
+   </div>
+   <footer class="footer">
+      <div align="center" class="container">
+           <p class="text-muted"><h7>Made with C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub> + ♥ by: <a  target="_blank"  href="https://github.com/joshuapassos">Joshua Passos</a></h7></p>
+      </div>
+   </footer>
+</body>
+
+<script src="js/app.js"></script>
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="/js/index.js"></script>
+</html>
