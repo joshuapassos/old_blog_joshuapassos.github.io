@@ -15,9 +15,13 @@ angular.module('MyWebSite', [])
    Servic.getfilejson(function(res){
       var gettexto = (post) => {
          Servic.getmark(post.endereco, function(resx){
-            var converter = new showdown.Converter()
+            var converter = new showdown.Converter({ extensions: '' })
             var html = converter.makeHtml(resx);
             $("#text").empty().append(html);
+            hljs.configure({
+               tabReplace: '   ', // 3 spaces
+            })
+            hljs.initHighlightingOnLoad();
             $rootScope.id = post.id;
             $rootScope.datap = post.data;
             $rootScope.tags = post.tags == "" ? 'Sem tags' : 'Tags: ' + post.tags
