@@ -17,6 +17,7 @@ angular.module('MyWebSite', [])
          Servic.getmark(post.endereco, function(resx){
             var converter = new showdown.Converter({ extensions: '' })
             var html = converter.makeHtml(resx);
+            console.log(resx)
             $("#text").empty().append(html);
             hljs.configure({
                tabReplace: '   ', // 3 spaces
