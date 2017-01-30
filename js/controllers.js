@@ -2,6 +2,7 @@ angular.module('my.controllers', [])
 
 .controller('Main', ['Servic', '$rootScope', function(Servic,$rootScope){
   $rootScope.id = '#'
+  $rootScope.titulo = "Inicio"
   var converter = new showdown.Converter({ extensions: '' })
   Servic.getmark("myposts/sobre.md", function(resx){
     var html = converter.makeHtml(resx);
@@ -43,7 +44,7 @@ angular.module('my.controllers', [])
       $("#text").empty().append(html);
     }else{
       $rootScope.info = true;
-      document.title = artigo.titulo + " - Project Josh"
+      $rootScope.titulo = artigo.titulo
       $rootScope.id = artigo.id;
       $rootScope.datap = artigo.data;
       $rootScope.tags = artigo.tags == "" ? 'Sem tags' : 'Tags: ' + artigo.tags
