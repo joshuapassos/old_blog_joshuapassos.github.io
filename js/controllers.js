@@ -4,7 +4,6 @@ angular.module('my.controllers', [])
   $rootScope.id = '#'
   var converter = new showdown.Converter({ extensions: '' })
   Servic.getmark("myposts/sobre.md", function(resx){
-    console.log(resx)
     var html = converter.makeHtml(resx);
     $("#sobre").empty().append(html);
      hljs.configure({
