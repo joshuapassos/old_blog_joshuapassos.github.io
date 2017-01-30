@@ -8,8 +8,6 @@
          "data":  "28/01/2017",
          "id" : 1
       },
-
-
       {
          "titulo" : "A arte da Recursão",
          "endereco": "myposts/recursao.md",
@@ -17,5 +15,6 @@
          "data":  "10/09/2015",
          "id" : 0
       }
+      
    ]
 }
