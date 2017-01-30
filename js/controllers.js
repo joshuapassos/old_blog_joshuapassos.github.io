@@ -3,8 +3,6 @@ angular.module('my.controllers', [])
 .controller('Main', ['Servic', '$rootScope', function(Servic,$rootScope){
   $rootScope.id = '#'
   $rootScope.titulo = "Project Josh"
-  $rootScope.sitename = "Project Josh"
-  $rootScope.descricao =  "lalalla"
   var converter = new showdown.Converter({ extensions: '' })
   Servic.getmark("myposts/sobre.md", function(resx){
     var html = converter.makeHtml(resx);
