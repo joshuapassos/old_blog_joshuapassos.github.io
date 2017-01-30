@@ -5,7 +5,7 @@ angular.module('my.controllers', [])
   var converter = new showdown.Converter({ extensions: '' })
   Servic.getmark("myposts/sobre.md", function(resx){
     console.log(resx.getElementsByTagName('code')[0].innerHTML)
-    var html = converter.makeHtml(resx.getElementsByTagName('code')[0].innerHTML);
+    var html = converter.makeHtml(resx);
     $("#sobre").empty().append(html);
      hljs.configure({
         tabReplace: '   ', // 3 spaces
