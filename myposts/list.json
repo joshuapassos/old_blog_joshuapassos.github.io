@@ -1,20 +1,25 @@
 {
    "myposts": [
 
- {
-         "titulo" : "Utilizando o Gitflow",
-         "endereco": "myposts/gitflow.md",
-         "tags":  "Git, Programação, Engenharia de Software",
-         "data":  "28/01/2017",
-         "id" : 1
-      },
+
+
+
       {
-         "titulo" : "A arte da Recursão",
+         "titulo" : "A Arte da Recursão",
          "endereco": "myposts/recursao.md",
          "tags":  "Recursão, Programação, Funções",
+         "descricao": "Técnicas de implementação de funções recursivas",
          "data":  "10/09/2015",
          "id" : 0
+      },
+
+      {
+         "titulo" : "Utilizando Git flow",
+         "endereco": "myposts/gitflow.md",
+         "tags":  "Git, Programação, Engenharia de Software",
+         "descricao": "Modelo de branching interessante para organizar seus repositórios",
+         "data":  "28/01/2017",
+         "id" : 1
       }
-      
    ]
 }

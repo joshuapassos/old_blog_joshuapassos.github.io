@@ -7,30 +7,17 @@
 
 ### **Sumário**
 
-1. [Introdução](#intro)
-2. [Tipos de Recursão](#tipos)
-    1. [Linear](#linear)
-    2. [Calda](#tail)
-    3. [Árvore](#tree)
-3. [Análise de complexidade](#complex)
-4. [Links úteis](#links)
-5. [Referências](#referencias)
+1. Introdução
+2. Tipos de Recursão
+    1. Linear
+    2. Calda
+    3. Árvore
+3. Análise de complexidade
+4. Links úteis
+5. Referências
 
-----
 
-<a name="intro"></a>
-## **Introdução**
-Em construção...
 
-<a name="tipos"></a>
-## **Tipos de Recursão**
-Em construção...
-
-<a name="linear"></a>
-### **Recursão linear**
-Em construção...
-
-<a name="tail"></a>
 ### **Recursão em Calda**
 
 A ideia da recursividade é sempre ensinada como uma coisa perigosa. De um lado eles defendem que por causa da abstração ela é uma ferramenta maravilhosa. Do outro lado, eles falam que o uso da recursividade remete em um desempenho muito inferior ao uso dos loops.
@@ -124,16 +111,13 @@ A ideia é o acumulador estar como parâmetro da função em vez de ser o retorn
 O interessante é que muitas linguagens utilizam essa subrotina e o código gerado na compilação é o mesmo do loop. Podemos listar JavaScript, C, Lua, Haskell..
 Obs: Em Python e Java, Tail Recursion não funciona nativamente, porem pesquisando pela internet encontrei métodos para implementar :)
 
-<a name="tree"></a>
 ### **Recursão de árvore**
 Em construção...
 
-<a name="complex"></a>
 ## **Análise de complexidade**
 Em construção...
 
 
-<a name="links"></a>
 ## **Links úteis:**
 
 + [Tail Call Optimization for Python](https://github.com/baruchel/tco)
@@ -141,7 +125,6 @@ Em construção...
 + [Recursion or while loops](http://programmers.stackexchange.com/questions/182314/recursion-or-while-loops)
 
 
- <a name="referencias"></a>
 ## **Referências:**
 
 + [Harold Abelson and Gerald J. Sussman. 1996. Structure and Interpretation of Computer Programs (2nd ed.). MIT Press, Cambridge, MA, USA.](https://mitpress.mit.edu/sicp/full-text/book/book.html)

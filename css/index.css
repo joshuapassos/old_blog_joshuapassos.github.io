@@ -5,3 +5,21 @@
     /*color: #FFF;*/
     padding: 10px;
 }
+
+img[alt$=">"] {
+  float:right;
+}
+
+img[alt$="<"] {
+  float:left;
+  margin-right: 10px;
+
+}
+
+img[alt$="<>"] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    float: none!important;
+}

@@ -1,0 +1,16 @@
+<div id="" class="jumbotron">
+  <div id="sobre" ></div>
+  <h3> Posts Recentes</h3>
+  <div ng-repeat="x in artRecentes">
+      <div class="list-group">
+          <div class="list-group-item">
+
+              <div class="row-content">
+                  <div class="least-content">{{x.data}}</div>
+                  <h4 class="list-group-item-heading"><a href="#/artigo/{{x.id}}">{{x.titulo}}</a></h4>
+                  <p class="list-group-item-text"><h5>{{x.descricao}}</h5></p>
+              </div>
+          </div>
+      </div>
+</div>
+</div>
