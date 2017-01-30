@@ -7,7 +7,7 @@ angular.module('my.services', [])
           $http.get(baseUrl).success(success).error(error)
       },
       getmark: function(arquivo,success, error) {
-        $http({method: 'GET',url: arquivo, responseType:"document"}).success(success).error(error)
+        $http({method: 'GET',url: arquivo, responseType:""}).success(success).error(error)
       }
   };
 }])
