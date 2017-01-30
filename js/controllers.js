@@ -49,7 +49,7 @@ angular.module('my.controllers', [])
       $rootScope.datap = artigo.data;
       $rootScope.tags = artigo.tags == "" ? 'Sem tags' : 'Tags: ' + artigo.tags
       Servic.getmark(artigo.endereco, function(resx){
-        var html = converter.makeHtml(resx.getElementsByTagName('code')[0].innerHTML);
+        var html = converter.makeHtml(resx);
         $("#text").empty().append(html);
          hljs.configure({
             tabReplace: '   ', // 3 spaces
