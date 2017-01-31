@@ -4,10 +4,10 @@
 
 ## **Sumário**
 
-### 1. Introdução
-### 2. Gitflow
-### 3. Links úteis
-### 4. Referências
+1. Introdução
+2. Gitflow
+3. Links úteis
+4. Referências
 
 
 
