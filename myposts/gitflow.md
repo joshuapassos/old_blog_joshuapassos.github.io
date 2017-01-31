@@ -2,7 +2,7 @@
 
 -----------
 
-## **Sumário**
+### **Sumário**
 
 1. Introdução
 2. Gitflow
@@ -14,7 +14,7 @@
 
 -----------
 
-## Introdução
+### Introdução
 
 Um dos grandes problemas de um projeto é como desenvolver ele em conjunto com outros desenvolvedores, sendo que a aplicação esteja sempre atualizada e que esse processo seja o mais automático possível.
 
@@ -27,7 +27,7 @@ Uma das grande referências hoje para controlador de versão é o git. Ele foi d
 Mesmo com ferramentas como essa, ainda é necessário algumas regras de uso, para que bugs não aconteçam.
 
 
-## Gitflow
+### Gitflow
 
 Quando o projeto e pequeno, uma única branch é suficiente para você concluir o trabalho, porém quando estamos falando de um software com uma versão estável, uma nova versão sendo desenvolvida e simultaneamente corrigir bugs da versão atual, nós precisamos utilizar mais de uma branch e o gitflow fornece um modelo/conjunto de extensões para utilizar esse sistema com eficiência.
 
@@ -51,7 +51,7 @@ A aplicação do gitflow foi construída para facilitar as criações dessas bra
 ![commgitflow <>](https://danielkummer.github.io/git-flow-cheatsheet/img/git-flow-commands.png "Comandos")
 
 
-## Links úteis
+### Links úteis
 
 [Download GitFlow e Manual de utilização](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
 
@@ -62,7 +62,7 @@ A aplicação do gitflow foi construída para facilitar as criações dessas bra
 [Git GUI para utilizar no Atom com suporte a Gitflow](https://atom.io/packages/git-control)
 
 
-## Referências
+### Referências
 [A successful Git branching model](https://www.codementor.io/slavko/implementing-git-flow-releasing-model-in-continuous-integration-process-du1083k06)
 
 [Git official website](https://git-scm.com/about/staging-area)
