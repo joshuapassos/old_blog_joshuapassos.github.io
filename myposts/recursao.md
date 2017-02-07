@@ -92,7 +92,7 @@ int fatorial(int n){
 }
 ```
 
-A função fac() acima é a unica função necessária para calcular o fatorial, coloquei a função fatorial() para passar somente um parâmetro.
+A função fac() acima é a única função necessária para calcular o fatorial, coloquei a função fatorial() para passar somente um parâmetro.
 Nesse caso vamos ver como funciona a execução:
 
 
