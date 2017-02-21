@@ -28,7 +28,7 @@ Para nos ajudar a gerenciar usaremos o Habitica.
 >  Habitica é um aplicativo grátis de produtividade e construção de hábitos que trata sua vida real como se fosse um jogo. Com recompensas e punições de jogo para mantê-lo motivado e uma forte rede social para inspirá-lo, Habitica pode ajudar você a atingir seus objetivos, trabalhar mais duro e se manter saudável e feliz.
 
 
-![imgdiag <>](/Myposts/img/diagramhab.png "Funcionamento Gamification")
+![imgdiag <>](Myposts/img/diagramhab.png "Funcionamento Gamification")
 
 
 A ideia consiste como a imagem acima descreve. No site da empresa listaremos as tarefas que serão encaminhadas para o Habitica onde os membros irão se organizar para fazer. Após o termino da tarefa ele confirma no jogo e a mesma é confirmada no site da Recode, dando pontos dentro site e fazendo ele subir de ranking.
