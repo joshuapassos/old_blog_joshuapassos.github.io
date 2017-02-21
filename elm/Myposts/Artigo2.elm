@@ -3,7 +3,9 @@ module Myposts.Artigo2 exposing (..)
 
 conteudo : String
 conteudo =
-    """# Utilizando Gitflow
+    """
+
+# Utilizando Gitflow
 
 -----------
 

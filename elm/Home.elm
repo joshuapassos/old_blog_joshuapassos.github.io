@@ -7,7 +7,7 @@ sobre =
 
 
 
-![<](Myposts/img/minhafoto.jpg "Me")
+![<](https://github.com/joshuapassos/joshuapassos.github.io/blob/master/elm/Myposts/img/minhafoto.jpg "Me")
 
 Meu nome é Joshua Passos. Moro em Cruz das Almas e faço Engenharia de Computação na Universidade Federal do Recôncavo da Bahia. Sou Diretor de projetos da [Recode Jr.](http://www.recodejr.com)
 
