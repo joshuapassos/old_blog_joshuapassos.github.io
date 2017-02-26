@@ -2,4 +2,4 @@
 
 ##ERRO :/
 
-[<>](myposts/img/lazy.png)
+![<>](myposts/img/lazy.png)
