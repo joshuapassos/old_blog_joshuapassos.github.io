@@ -1,0 +1,21 @@
+var _user$project$Routes$verif = function (url) {
+	var _p0 = url;
+	switch (_p0) {
+		case '':
+			return 'sobre.md';
+		case '#arquivos':
+			return 'arquivos.md';
+		case '#gamification':
+			return 'myposts/Gamification.md';
+		case '#gitflow':
+			return 'myposts/gitflow.md';
+		case '#recursao':
+			return 'myposts/gitflow.md';
+		case '#CV':
+			return 'cv.md';
+		case '#stats':
+			return 'stats.md';
+		default:
+			return 'erro.md';
+	}
+};
