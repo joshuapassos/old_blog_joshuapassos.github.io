@@ -65,32 +65,6 @@ hpost model =
         ]
 
 
-hinfo : Html msg
-hinfo =
-    div [ class "alert alert-dismissible alert-info" ]
-        [ button [ class "close", attribute "data-dismiss" "alert", type_ "button" ]
-            [ text "×" ]
-        , strong []
-            [ text "Esse artigo foi escrito: {{datap}}" ]
-        , br []
-            []
-        , strong []
-            [ text "{{tags}}" ]
-        ]
-
-
-hleftmenu : Html msg
-hleftmenu =
-    div [ class "well well-lg col-md-2", align "center" ]
-        [ p []
-            [ strong []
-                [ text "Categorias" ]
-            ]
-        , ul [ class "nav nav-pills nav-stacked", attribute "style" "max-width: 300px;" ]
-            [ li [] [ a [ href "https://github.com" ] [ text "teste" ] ] ]
-        ]
-
-
 hfooter : Html msg
 hfooter =
     footer [ class "footer" ]
