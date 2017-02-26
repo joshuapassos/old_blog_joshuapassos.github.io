@@ -1,5 +1,7 @@
 # Gamification na Recode Jr.
 
+Data:  07/02/2017
+
 ---------------------
 
 Um dos grandes problemas no funcionamento de uma empresa jr. é a dificuldade de administrar os membros.

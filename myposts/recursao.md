@@ -1,8 +1,9 @@
 
 # A arte da Recursão
 
-----
+Data: 10/09/2015
 
+----
 
 
 ### **Sumário**
