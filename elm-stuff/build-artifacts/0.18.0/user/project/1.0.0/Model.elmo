@@ -1,5 +1,0 @@
-var _user$project$Model$model = {titulo: 'Index', data: '', url: '', conteudo: 'Carregando'};
-var _user$project$Model$Model = F4(
-	function (a, b, c, d) {
-		return {conteudo: a, titulo: b, data: c, url: d};
-	});
