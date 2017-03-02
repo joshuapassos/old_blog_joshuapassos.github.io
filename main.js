@@ -10076,7 +10076,7 @@ var _user$project$Routes$verif = function (url) {
 		case '#stats':
 			return 'stats.md';
 		default:
-			return 'erro.md';
+			return 'sobre.md';
 	}
 };
 

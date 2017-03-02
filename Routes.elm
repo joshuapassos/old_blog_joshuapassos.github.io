@@ -26,4 +26,4 @@ verif url =
             "stats.md"
 
         _ ->
-            "erro.md"
+            "sobre.md"
