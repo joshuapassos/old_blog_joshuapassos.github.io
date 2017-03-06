@@ -6,6 +6,11 @@
     padding: 10px;
 }
 
+.jumbotron
+{
+background-color:#FFFFFF;
+}
+
 img[alt$=">"] {
   float:right;
 }

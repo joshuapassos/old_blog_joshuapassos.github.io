@@ -9847,75 +9847,132 @@ var _user$project$View$hpage = function (model) {
 		});
 };
 var _user$project$View$hnav = A2(
-	_elm_lang$html$Html$div,
+	_elm_lang$html$Html$nav,
 	{
 		ctor: '::',
-		_0: _elm_lang$html$Html_Attributes$class('navbar navbar-inverse'),
+		_0: _elm_lang$html$Html_Attributes$class('navbar navbar-toggleable-md navbar-light bg-faded container-fluid'),
 		_1: {ctor: '[]'}
 	},
 	{
 		ctor: '::',
 		_0: A2(
-			_elm_lang$html$Html$div,
+			_elm_lang$html$Html$a,
 			{
 				ctor: '::',
-				_0: _elm_lang$html$Html_Attributes$class('container-fluid'),
-				_1: {ctor: '[]'}
+				_0: _elm_lang$html$Html_Attributes$class('navbar-brand'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$href('#'),
+					_1: {ctor: '[]'}
+				}
 			},
 			{
 				ctor: '::',
-				_0: A2(
-					_elm_lang$html$Html$div,
-					{
+				_0: _elm_lang$html$Html$text('λ'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$div,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('collapse navbar-collapse'),
+					_1: {
 						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$class('navbar-header'),
+						_0: _elm_lang$html$Html_Attributes$id('navbarSupportedContent'),
 						_1: {ctor: '[]'}
-					},
-					{
-						ctor: '::',
-						_0: A2(
-							_elm_lang$html$Html$a,
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('navbar-brand'),
-								_1: {
-									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$href('#'),
-									_1: {ctor: '[]'}
-								}
-							},
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html$text('λ'),
-								_1: {ctor: '[]'}
-							}),
-						_1: {ctor: '[]'}
-					}),
-				_1: {
+					}
+				},
+				{
 					ctor: '::',
 					_0: A2(
-						_elm_lang$html$Html$div,
+						_elm_lang$html$Html$ul,
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('navbar-collapse collapse navbar-inverse-collapse'),
+							_0: _elm_lang$html$Html_Attributes$class('navbar-nav mr-auto'),
 							_1: {ctor: '[]'}
 						},
 						{
 							ctor: '::',
 							_0: A2(
-								_elm_lang$html$Html$ul,
+								_elm_lang$html$Html$li,
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('nav navbar-nav'),
+									_0: _elm_lang$html$Html_Attributes$class('nav-item active'),
 									_1: {ctor: '[]'}
 								},
 								{
 									ctor: '::',
 									_0: A2(
+										_elm_lang$html$Html$a,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('nav-link'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$href('#'),
+												_1: {ctor: '[]'}
+											}
+										},
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('Home '),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$span,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('sr-only'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('(current)'),
+														_1: {ctor: '[]'}
+													}),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {ctor: '[]'}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$li,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('nav-item'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$a,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('nav-link'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$href('#arquivos'),
+													_1: {ctor: '[]'}
+												}
+											},
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('Arquivos'),
+												_1: {ctor: '[]'}
+											}),
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
 										_elm_lang$html$Html$li,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('active'),
+											_0: _elm_lang$html$Html_Attributes$class('nav-item'),
 											_1: {ctor: '[]'}
 										},
 										{
@@ -9924,12 +9981,16 @@ var _user$project$View$hnav = A2(
 												_elm_lang$html$Html$a,
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$href('#'),
-													_1: {ctor: '[]'}
+													_0: _elm_lang$html$Html_Attributes$class('nav-link'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$href('#CV'),
+														_1: {ctor: '[]'}
+													}
 												},
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html$text('Home'),
+													_0: _elm_lang$html$Html$text('CV'),
 													_1: {ctor: '[]'}
 												}),
 											_1: {ctor: '[]'}
@@ -9940,7 +10001,7 @@ var _user$project$View$hnav = A2(
 											_elm_lang$html$Html$li,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class(''),
+												_0: _elm_lang$html$Html_Attributes$class('nav-item'),
 												_1: {ctor: '[]'}
 											},
 											{
@@ -9949,84 +10010,29 @@ var _user$project$View$hnav = A2(
 													_elm_lang$html$Html$a,
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$href('#arquivos'),
-														_1: {ctor: '[]'}
+														_0: _elm_lang$html$Html_Attributes$class('nav-link'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$href('#stats'),
+															_1: {ctor: '[]'}
+														}
 													},
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html$text('Archives'),
+														_0: _elm_lang$html$Html$text('Status'),
 														_1: {ctor: '[]'}
 													}),
 												_1: {ctor: '[]'}
 											}),
 										_1: {ctor: '[]'}
 									}
-								}),
-							_1: {
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$ul,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('nav navbar-nav navbar-right'),
-										_1: {ctor: '[]'}
-									},
-									{
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$li,
-											{ctor: '[]'},
-											{
-												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$a,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$href('#CV'),
-														_1: {ctor: '[]'}
-													},
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html$text('CV'),
-														_1: {ctor: '[]'}
-													}),
-												_1: {ctor: '[]'}
-											}),
-										_1: {
-											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$li,
-												{ctor: '[]'},
-												{
-													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$a,
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$href('#stats'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$id('toggle'),
-																_1: {ctor: '[]'}
-															}
-														},
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html$text('Stats'),
-															_1: {ctor: '[]'}
-														}),
-													_1: {ctor: '[]'}
-												}),
-											_1: {ctor: '[]'}
-										}
-									}),
-								_1: {ctor: '[]'}
+								}
 							}
 						}),
 					_1: {ctor: '[]'}
-				}
-			}),
-		_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		}
 	});
 var _user$project$View$hbody = function (model) {
 	return A2(
