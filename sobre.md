@@ -21,7 +21,7 @@ Neste blog irei escrever sobre muito dos temas acima.
 
 -------------
 
-- [Arquivos](#arquivos)
+- [Artigos](#artigos)
 
 - [Status](#stats)
 
