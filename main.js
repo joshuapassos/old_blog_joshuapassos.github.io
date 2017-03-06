@@ -9955,13 +9955,13 @@ var _user$project$View$hnav = A2(
 												_0: _elm_lang$html$Html_Attributes$class('nav-link'),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$href('#arquivos'),
+													_0: _elm_lang$html$Html_Attributes$href('#artigos'),
 													_1: {ctor: '[]'}
 												}
 											},
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html$text('Arquivos'),
+												_0: _elm_lang$html$Html$text('Artigos'),
 												_1: {ctor: '[]'}
 											}),
 										_1: {ctor: '[]'}
@@ -10069,8 +10069,8 @@ var _user$project$Routes$verif = function (url) {
 	switch (_p0) {
 		case '':
 			return 'sobre.md';
-		case '#arquivos':
-			return 'arquivos.md';
+		case '#artigos':
+			return 'artigos.md';
 		case '#gamification':
 			return 'myposts/Gamification.md';
 		case '#gitflow':

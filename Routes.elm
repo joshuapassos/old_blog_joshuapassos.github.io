@@ -7,8 +7,8 @@ verif url =
         "" ->
             "sobre.md"
 
-        "#arquivos" ->
-            "arquivos.md"
+        "#artigos" ->
+            "artigos.md"
 
         "#gamification" ->
             "myposts/Gamification.md"
