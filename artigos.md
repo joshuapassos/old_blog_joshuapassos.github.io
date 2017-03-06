@@ -1,4 +1,4 @@
-## Arquivos
+## Artigos
 ------
 λ. [Gamification na Recode Jr.](#gamification) - Utilizando gamification para melhorar interação entre os membros da empresa (07/02/2017)
 
