@@ -17,7 +17,7 @@ verif url =
             "myposts/gitflow.md"
 
         "#recursao" ->
-            "myposts/gitflow.md"
+            "myposts/recursao.md"
 
         "#CV" ->
             "cv.md"
