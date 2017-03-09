@@ -10073,6 +10073,8 @@ var _user$project$Routes$verif = function (url) {
 			return 'artigos.md';
 		case '#gamification':
 			return 'myposts/Gamification.md';
+		case '#zswap':
+			return 'myposts/zswap.md';
 		case '#gitflow':
 			return 'myposts/gitflow.md';
 		case '#recursao':

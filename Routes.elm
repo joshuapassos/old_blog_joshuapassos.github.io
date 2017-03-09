@@ -13,6 +13,9 @@ verif url =
         "#gamification" ->
             "myposts/Gamification.md"
 
+        "#zswap" ->
+            "myposts/zswap.md"
+
         "#gitflow" ->
             "myposts/gitflow.md"
 
