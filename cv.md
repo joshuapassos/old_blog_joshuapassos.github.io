@@ -1,7 +1,6 @@
 
 
 > ## Joshua Gandhi Conceição Passos
-Diretor de Projetos na Recode Jr.
 
 > [joshuapassos@gmail.com](malito:joshuapassos@gmail.com)
 
