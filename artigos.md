@@ -7,4 +7,4 @@
 
 λ. [Utilizando Git flow](#gitflow) - Modelo de branching interessante para organizar seus repositórios (28/01/2017)
 
-λ. [A Arte da Recursão](#recursao) - Técnicas de implementação de funções recursivas (10/09/2015)
+<!--λ. [A Arte da Recursão](#recursao) - Técnicas de implementação de funções recursivas (10/09/2015) -->
